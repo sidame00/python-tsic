@@ -316,7 +316,7 @@ class TsicInputChannel(object):
         if status == ZacWireInputChannel.STATUS_OK and len(packet_bytes) == 2:
             
             with self.__lock:
-                self.__degree_celsius = ((packet_bytes[0] * 256 + packet_bytes[1]) / 2047. * (150 + 50) - 50)
+                self.__degree_celsius = ((packet_bytes[0] * 256 + packet_bytes[1]) / 2047. * (60 + 10) - 10)
                 self.__timestamp = time.time()
                 measurement = self.measurement
             

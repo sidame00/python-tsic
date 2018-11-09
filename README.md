@@ -1,7 +1,7 @@
 # python-tsic
 
 Receive temperature readings from TSIC 206/306 chips connected to Raspberry Pi GPIO.
-The module `tsic.py` requires Python 3 and the great library `pigpio` for GPIO access with precise timing.
+The module `tsic.py` requires `Python 3` and the great library `pigpio` for GPIO access with precise timing.
 
 It provides three major classes:
 * `TsicInputChannel` receive temperature measurements
@@ -12,3 +12,12 @@ See `example.py` for API usage or start `tsic.py <gpio-bcm> [--loop]` to read te
 
 Greetings from Bavaria  
 Holger
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+adjusted for TSIC 506
+
+Greetings from Schwabenland
+Sidame
